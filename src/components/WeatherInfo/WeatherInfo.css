@@ -1,0 +1,36 @@
+.WeatherInfo {
+    width: 75%;
+    margin: 0 auto;
+    border: 2px solid gray;
+    box-shadow: 1px 2px lightslategray;
+    border-radius: 5px;
+    padding: 1.5rem;
+    text-align: center;
+}
+.WeatherInfo > div:not(:first-child) {
+    margin-top: 1rem;
+}
+.WeatherInfo_temp {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.WeatherInfo_feelsLike {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.WeatherInfo_name {
+    font-weight: 200;
+    font-style: italic;
+}
+.WeatherInfo_loading svg {
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg);
+    }
+}
+.error {
+    color: darkred;
+}

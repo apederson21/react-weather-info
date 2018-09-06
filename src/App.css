@@ -1,0 +1,9 @@
+:root {
+    font-size: 18px;
+}
+
+html, body {
+    margin: 0;
+    padding: .5rem 0;
+    background-color: whitesmoke;
+}
